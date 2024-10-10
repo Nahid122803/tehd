@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evenditor - FBA Seller</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            animation: fadeIn 2s ease-in;
+        }
+
+        .content {
+            text-align: center;
+            margin-top: 50px;
+            animation: slideUp 1.5s ease-in-out;
+        }
+
+        .content h1 {
+            color: #333;
+            font-size: 3em;
+        }
+
+        .content p {
+            color: #666;
+            font-size: 1.2em;
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        .cta {
+            margin-top: 20px;
+        }
+
+        .cta button {
+            padding: 15px 25px;
+            background: #007bff;
+            color: white;
+            border: none;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .cta button:hover {
+            background: #0056b3;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Welcome to Evenditor
+    </header>
+
+    <div class="content">
+        <h1>Your Trusted FBA Seller</h1>
+        <p>We help you grow your business by providing top-notch products at the best prices, sourced strategically for maximum profit. Let's succeed together in the Amazon marketplace.</p>
+        <div class="cta">
+            <button onclick="window.location.href='#'">Learn More</button>
+        </div>
+    </div>
+
+</body>
+</html>
